@@ -10,8 +10,6 @@ This project focuses on developing a **Sentiment Analysis AI model** to analyze 
 
 The model is implemented using **deep learning techniques** and trained on a dataset of customer reviews. This practical demonstrates how Natural Language Processing (NLP) can be applied to real-world business problems.
 
----
-
 ## 🎯 Objective
 
 * Develop a sentiment analysis model for customer reviews
@@ -19,16 +17,12 @@ The model is implemented using **deep learning techniques** and trained on a dat
 * Train the model using a deep learning framework
 * Evaluate model performance using classification metrics
 
----
-
 ## 🧠 Use Case
 
 **Customer Review Sentiment Analysis**
 
 * Input: Customer review text
 * Output: Sentiment classification (Positive / Negative)
-
----
 
 ## 🛠️ Tech Stack
 
@@ -41,23 +35,6 @@ The model is implemented using **deep learning techniques** and trained on a dat
   * Scikit-learn
   * NLTK
   * Torch / TensorFlow
-
----
-
-## 📂 Project Structure
-
-```
-Sentiment-Analysis-Customer-Reviews/
-│
-├── SP AIPD Prac3.ipynb
-├── dataset/
-│   └── customer_reviews.csv
-│
-├── README.md
-└── requirements.txt
-```
-
----
 
 ## 📊 Dataset Description
 
@@ -73,9 +50,7 @@ Sentiment-Analysis-Customer-Reviews/
   * Stopword removal
   * Lemmatization
   * Vectorization (TF-IDF / Embeddings)
-
----
-
+  * 
 ## 🧪 Model Architecture
 
 The sentiment analysis model includes:
@@ -86,16 +61,12 @@ The sentiment analysis model includes:
 * Loss Function: **Binary Cross-Entropy**
 * Optimizer: **Adam**
 
----
-
 ## 🚀 Model Training
 
 * Dataset split into training and testing sets
 * Model trained over multiple epochs
 * Loss minimized using gradient descent
 * Validation performed to monitor performance
-
----
 
 ## 📈 Model Evaluation
 
@@ -113,15 +84,11 @@ Sample Result:
 Accuracy: ~88% – 92%
 ```
 
----
-
 ## 🔍 Results and Analysis
 
 * Model effectively classifies customer sentiments
 * High accuracy indicates good generalization
 * NLP preprocessing significantly improves performance
-
----
 
 ## 🧩 Future Enhancements
 
@@ -131,7 +98,6 @@ Accuracy: ~88% – 92%
 * Integration with e-commerce platforms
 * Deployment using Flask or FastAPI
 
----
 
 ## ▶️ How to Run the Project
 
@@ -147,13 +113,9 @@ pip install pandas numpy scikit-learn nltk torch tensorflow
 jupyter notebook "SP AIPD Prac3.ipynb"
 ```
 
----
-
 ## 📌 Conclusion
 
 This project successfully demonstrates the development of an AI-based sentiment analysis system for customer reviews. It highlights the importance of NLP and deep learning in understanding customer feedback and supporting data-driven business decisions.
-
----
 
 ## 👩‍💻 Author
 
